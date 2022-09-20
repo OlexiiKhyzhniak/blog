@@ -6,3 +6,4 @@ export const registerValidation = [
     body('fullName', 'Type correct Name').isLength({ min: 3 }),
     body('avatarUrl', 'Error url for avatar').optional().isURL(),
 ];
+
